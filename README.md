@@ -7,12 +7,11 @@ A Next.js application demonstrating password-based access control using Contents
 - **Password Protection**: Secure access control using Basic Authentication
 - **Domain-based Protection**: Apply protection to specific domains only
 - **Edge Function Integration**: Uses Contentstack Edge Functions for real-time authentication
-- **Modern UI**: Beautiful, responsive interface built with Next.js and Tailwind CSS
 - **Real-time Access Control**: Authentication validation happens at the edge for optimal performance
 
 ## 📋 Prerequisites
 
-- Node.js 18+ 
+- Node.js 22+ 
 - npm or yarn
 - Contentstack account (for Edge Functions deployment)
 
@@ -21,7 +20,7 @@ A Next.js application demonstrating password-based access control using Contents
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd launch-edge-custom-PP-example
+   cd launch-edge-custom-Password-Protection-example
    ```
 
 2. **Install dependencies**
@@ -81,7 +80,7 @@ To add new protected domains:
 ## 🏗️ Project Structure
 
 ```
-launch-edge-custom-PP-example/
+launch-edge-custom-Password-Protection-example/
 ├── app/                    # Next.js app directory
 │   ├── page.tsx           # Main application page
 │   ├── layout.tsx         # Root layout component
@@ -130,11 +129,6 @@ npm run build
 npm start
 ```
 
-### Contentstack Edge Functions
-
-1. Deploy the Edge Function to Contentstack
-2. Configure the function to intercept your desired routes
-3. Test with different IP addresses
 
 ## 🧪 Testing
 
@@ -157,7 +151,6 @@ You can test the authentication by:
 
 - [Contentstack Edge Functions Documentation](https://www.contentstack.com/docs/developers/launch/edge-functions)
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
 ## 📄 License
 
